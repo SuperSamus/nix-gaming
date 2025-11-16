@@ -29,6 +29,7 @@ rec {
     v4lSupport = false;
     gphoto2Support = false;
     krb5Support = false;
+    ffmpegSupport = false;
     embedInstallers = false;
   };
 
@@ -47,5 +48,6 @@ rec {
       krb5Support = true;
       embedInstallers = true;
       waylandSupport = true; # re-enabled for newer Wine versions that support Wayland
+      ffmpegSupport = true;
     };
 }
